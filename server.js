@@ -8,4 +8,4 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/public/home.html')
 })
 
-app.listen(2222)
+app.listen(2222 || PORT)
